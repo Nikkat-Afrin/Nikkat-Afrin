@@ -1,5 +1,3 @@
-### Hi there 👋
-
 - 👋 Hi, I’m @Nikkat-Afrin
 - 👀 I’m interested in Data Analytics and Visualization
 - 🌱 I’m currently learning Visual Design and Story telling, structural Data Management along with Analytical Programming, commits related to which you will see here on my repo
