@@ -1,25 +1,31 @@
-- 👋 Hi, I’m @Nikkat-Afrin
-- 👀 I’m interested in Data Analytics and Visualization
-- 🌱 I’m currently learning Visual Design and Story telling, structural Data Management along with Analytical Programming, commits related to which you will see here on my repo
-- 💞️ I’m looking to collaborate on interesting use data cases and experiments, I have a keen interest in Health Care related Data Solutions
+I like building AI & Data systems that make people say: “Wait… this used to take hours?”
 
-<!---
-CasterShade/CasterShade is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Hi, I’m Nikkat 👋
 
+I’m an AI & Data Platform Engineer @ Peblink / World Literacy Research Center, with 2+ years of experience building AI-powered workflows, data pipelines, analytics dashboards, cloud systems, and intelligent automation tools.
 
-<!--
-**Nikkat-Afrin/Nikkat-Afrin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My work usually sits at the intersection of three things: messy real-world data, AI systems that need context, and products that need to actually work for real people.
 
-Here are some ideas to get you started:
+📊 A few things I’ve worked on:
+➡️ Reduced reading assessment review time from 60+ minutes to under 5 minutes by helping build a serverless AWS pipeline that turns student audio/video inputs into structured literacy insights using speech-to-text, transcription, and AI-based reading analysis.
+➡️ Built AI-agentic workflows across literacy-tech, logistics, admissions, and career services, including RAG chatbots, voice AI systems, investor outreach agents, dashboards, data pipelines, and automation tools that help teams move from manual work to faster decisions.
+➡️ Published first-author AI research, SigmaCam, at IJCNN 2025 introducing a PyTorch-accelerated method to make neural network decision boundaries easier to understand, improving model transparency for high-stakes use cases.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔍 What I enjoy most:
+I love taking unclear problems and turning them into something structured, measurable, and useful.
+Sometimes that means building an AI chatbot that answers student questions..
+Sometimes it means designing a data pipeline.
+Sometimes it means turning a research idea into a working AI system.
+But the goal is always the same: build systems that helps people save time, understand the problem better, and make smarter decisions.
+
+🛠️ Tools I work with:
+Python, SQL, FastAPI, Power BI, Tableau, Excel, AWS, Azure, Databricks, Spark, DynamoDB, Athena, QuickSight, Docker, React, OpenAI APIs, Whisper, LangChain, RAG workflows, speech-to-text, and AI/LLM systems.
+
+🤝 Let’s connect:
+
+If you’re working in AI, data engineering, analytics, cloud, education technology, logistics, or building a startup/product idea, I’d love to connect.
+I’m always open to conversations around AI workflows, data platforms, dashboards, automation, voice AI, RAG systems, product ideas, and ways to turn messy problems into real solutions.
+
+📩 Reach me at: fnunikkatafrin@gmail.com
+🌱 Fun fact:
+Outside of AI and data, I love sand painting, cooking, and learning new skills which probably explains why I enjoy turning raw, messy pieces into something meaningful.
