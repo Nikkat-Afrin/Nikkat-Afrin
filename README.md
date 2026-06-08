@@ -7,8 +7,11 @@ I’m an AI & Data Platform Engineer @ Peblink / World Literacy Research Center,
 My work usually sits at the intersection of three things: messy real-world data, AI systems that need context, and products that need to actually work for real people.
 
 📊 A few things I’ve worked on:
+
 ➡️ Reduced reading assessment review time from 60+ minutes to under 5 minutes by helping build a serverless AWS pipeline that turns student audio/video inputs into structured literacy insights using speech-to-text, transcription, and AI-based reading analysis.
+
 ➡️ Built AI-agentic workflows across literacy-tech, logistics, admissions, and career services, including RAG chatbots, voice AI systems, investor outreach agents, dashboards, data pipelines, and automation tools that help teams move from manual work to faster decisions.
+
 ➡️ Published first-author AI research, SigmaCam, at IJCNN 2025 introducing a PyTorch-accelerated method to make neural network decision boundaries easier to understand, improving model transparency for high-stakes use cases.
 
 🔍 What I enjoy most:
