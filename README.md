@@ -24,6 +24,20 @@ But the goal is always the same: build systems that helps people save time, unde
 🛠️ Tools I work with:
 Python, SQL, FastAPI, Power BI, Tableau, Excel, AWS, Azure, Databricks, Spark, DynamoDB, Athena, QuickSight, Docker, React, OpenAI APIs, Whisper, LangChain, RAG workflows, speech-to-text, and AI/LLM systems.
 
+📌 Some projects worth a look:
+
+➡️ [SigmaCam](https://github.com/Nikkat-Afrin/SigmaCam) — my first-author IEEE IJCNN 2025 research: exact decision-boundary extraction for neural networks with smooth activations.
+
+➡️ [voice-ai-system](https://github.com/Nikkat-Afrin/voice-ai-system) — real-time Azure voice conversational AI (speech in → LLM → speech out, streamed over WebSockets).
+
+➡️ [banking-swap-hedging-ml](https://github.com/Nikkat-Afrin/banking-swap-hedging-ml) — ML ensemble predicting swap-hedging adoption on a 2,354 bank-year panel (ROC-AUC ~0.96, SHAP interpretation).
+
+➡️ [disease-management-system-db](https://github.com/Nikkat-Afrin/disease-management-system-db) — one healthcare domain modeled three ways: PostgreSQL OLTP, an SCD-2 warehouse, and a Neo4j graph.
+
+➡️ [customer-churn-segmentation-ecommerce](https://github.com/Nikkat-Afrin/customer-churn-segmentation-ecommerce) — K-Means segments + purchase-intent model (AUC ~0.93) on 12k+ shopping sessions.
+
+➡️ [healthcare-provider-network-tableau](https://github.com/Nikkat-Afrin/healthcare-provider-network-tableau) — interactive Tableau dashboards for provider-network adequacy decisions.
+
 🤝 Let’s connect:
 
 If you’re working in AI, data engineering, analytics, cloud, education technology, logistics, or building a startup/product idea, I’d love to connect.
