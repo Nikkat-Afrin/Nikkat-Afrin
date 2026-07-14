@@ -16,10 +16,10 @@ My work usually sits at the intersection of three things: messy real-world data,
 
 🔍 What I enjoy most:
 I love taking unclear problems and turning them into something structured, measurable, and useful.
-Sometimes that means building an AI chatbot that answers student questions..
+Sometimes that means building an AI chatbot that answers student questions.
 Sometimes it means designing a data pipeline.
 Sometimes it means turning a research idea into a working AI system.
-But the goal is always the same: build systems that helps people save time, understand the problem better, and make smarter decisions.
+But the goal is always the same: build systems that help people save time, understand the problem better, and make smarter decisions.
 
 🛠️ Tools I work with:
 Python, SQL, FastAPI, Power BI, Tableau, Excel, AWS, Azure, Databricks, Spark, DynamoDB, Athena, QuickSight, Docker, React, OpenAI APIs, Whisper, LangChain, RAG workflows, speech-to-text, and AI/LLM systems.
@@ -46,3 +46,10 @@ I’m always open to conversations around AI workflows, data platforms, dashboar
 📩 Reach me at: fnunikkatafrin@gmail.com
 🌱 Fun fact:
 Outside of AI and data, I love sand painting, cooking, and learning new skills which probably explains why I enjoy turning raw, messy pieces into something meaningful.
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nikkat-Afrin&show_icons=true&theme=default&hide_border=true&rank_icon=github" alt="GitHub stats" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikkat-Afrin&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="160"/>
+</p>
