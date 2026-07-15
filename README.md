@@ -26,17 +26,17 @@ Python, SQL, FastAPI, Power BI, Tableau, Excel, AWS, Azure, Databricks, Spark, D
 
 📌 Some projects worth a look:
 
-➡️ [SigmaCam](https://github.com/Nikkat-Afrin/SigmaCam) — my first-author IEEE IJCNN 2025 research: exact decision-boundary extraction for neural networks with smooth activations.
+➡️ [SigmaCam](https://github.com/Nikkat-Afrin/SigmaCam) - my first-author IEEE IJCNN 2025 research: exact decision-boundary extraction for neural networks with smooth activations.
 
-➡️ [voice-ai-system](https://github.com/Nikkat-Afrin/voice-ai-system) — real-time Azure voice conversational AI (speech in → LLM → speech out, streamed over WebSockets).
+➡️ [voice-ai-system](https://github.com/Nikkat-Afrin/voice-ai-system) - real-time Azure voice conversational AI (speech in → LLM → speech out, streamed over WebSockets).
 
-➡️ [banking-swap-hedging-ml](https://github.com/Nikkat-Afrin/banking-swap-hedging-ml) — ML ensemble predicting swap-hedging adoption on a 2,354 bank-year panel (ROC-AUC ~0.96, SHAP interpretation).
+➡️ [banking-swap-hedging-ml](https://github.com/Nikkat-Afrin/banking-swap-hedging-ml) - ML ensemble predicting swap-hedging adoption on a 2,354 bank-year panel (ROC-AUC ~0.96, SHAP interpretation).
 
-➡️ [disease-management-system-db](https://github.com/Nikkat-Afrin/disease-management-system-db) — one healthcare domain modeled three ways: PostgreSQL OLTP, an SCD-2 warehouse, and a Neo4j graph.
+➡️ [disease-management-system-db](https://github.com/Nikkat-Afrin/disease-management-system-db) - one healthcare domain modeled three ways: PostgreSQL OLTP, an SCD-2 warehouse, and a Neo4j graph.
 
-➡️ [customer-churn-segmentation-ecommerce](https://github.com/Nikkat-Afrin/customer-churn-segmentation-ecommerce) — K-Means segments + purchase-intent model (AUC ~0.93) on 12k+ shopping sessions.
+➡️ [customer-churn-segmentation-ecommerce](https://github.com/Nikkat-Afrin/customer-churn-segmentation-ecommerce) - K-Means segments + purchase-intent model (AUC ~0.93) on 12k+ shopping sessions.
 
-➡️ [healthcare-provider-network-tableau](https://github.com/Nikkat-Afrin/healthcare-provider-network-tableau) — interactive Tableau dashboards for provider-network adequacy decisions.
+➡️ [healthcare-provider-network-tableau](https://github.com/Nikkat-Afrin/healthcare-provider-network-tableau) - interactive Tableau dashboards for provider-network adequacy decisions.
 
 🤝 Let’s connect:
 
@@ -46,10 +46,3 @@ I’m always open to conversations around AI workflows, data platforms, dashboar
 📩 Reach me at: fnunikkatafrin@gmail.com
 🌱 Fun fact:
 Outside of AI and data, I love sand painting, cooking, and learning new skills which probably explains why I enjoy turning raw, messy pieces into something meaningful.
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nikkat-Afrin&show_icons=true&theme=default&hide_border=true&rank_icon=github" alt="GitHub stats" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikkat-Afrin&layout=compact&hide_border=true&langs_count=8" alt="Top languages" height="160"/>
-</p>
