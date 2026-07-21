@@ -1,48 +1,18 @@
-I like building AI & Data systems that make people say: “Wait… this used to take hours?”
+# 💫 About Me:
+🔭 I’m currently working on cloud-native AI and data platforms at Peblink / World Literacy Research Center, turning student audio and reading data into structured literacy insights using speech AI, Python, FastAPI, and AWS.<br><br>👯 I’m looking to collaborate on open-source projects involving AI agents, RAG systems, voice AI, data engineering, applied machine learning, and intelligent workflow automation.<br><br>🤝 I’m looking for help with scaling production AI agents, improving LLM evaluation and observability, and contributing to impactful open-source AI research.<br><br>🌱 I’m currently learning advanced GCP data engineering, distributed systems, production-grade agentic AI, and scalable MLOps practices.<br><br>💬 Ask me about Python, FastAPI, AWS, Azure, data pipelines, RAG, LangChain, Whisper, voice AI, dashboards, AI automation, and machine learning research.<br><br>⚡ Fun fact: I enjoy sand painting and cooking—probably because I love turning raw, messy pieces into something meaningful.
 
-Hi, I’m Nikkat 👋
 
-I’m an AI & Data Platform Engineer @ Peblink / World Literacy Research Center, with 2+ years of experience building AI-powered workflows, data pipelines, analytics dashboards, cloud systems, and intelligent automation tools.
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/nikkat-afrin/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:fnunikkatafrin@gmail.com) 
 
-My work usually sits at the intersection of three things: messy real-world data, AI systems that need context, and products that need to actually work for real people.
+# 💻 Tech Stack:
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=Nikkat-Afrin&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=Nikkat-Afrin&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Nikkat-Afrin&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-📊 A few things I’ve worked on:
+---
+[![](https://komarev.com/ghpvc/?username=Nikkat-Afrin&icon=0&color=0)](https://visitcount.itsvg.in)
 
-➡️ Reduced reading assessment review time from 60+ minutes to under 5 minutes by helping build a serverless AWS pipeline that turns student audio/video inputs into structured literacy insights using speech-to-text, transcription, and AI-based reading analysis.
-
-➡️ Built AI-agentic workflows across literacy-tech, logistics, admissions, and career services, including RAG chatbots, voice AI systems, investor outreach agents, dashboards, data pipelines, and automation tools that help teams move from manual work to faster decisions.
-
-➡️ Published first-author AI research, SigmaCam, at IJCNN 2025 introducing a PyTorch-accelerated method to make neural network decision boundaries easier to understand, improving model transparency for high-stakes use cases.
-
-🔍 What I enjoy most:
-I love taking unclear problems and turning them into something structured, measurable, and useful.
-Sometimes that means building an AI chatbot that answers student questions.
-Sometimes it means designing a data pipeline.
-Sometimes it means turning a research idea into a working AI system.
-But the goal is always the same: build systems that help people save time, understand the problem better, and make smarter decisions.
-
-🛠️ Tools I work with:
-Python, SQL, FastAPI, Power BI, Tableau, Excel, AWS, Azure, Databricks, Spark, DynamoDB, Athena, QuickSight, Docker, React, OpenAI APIs, Whisper, LangChain, RAG workflows, speech-to-text, and AI/LLM systems.
-
-📌 Some projects worth a look:
-
-➡️ [SigmaCam](https://github.com/Nikkat-Afrin/SigmaCam) - my first-author IEEE IJCNN 2025 research: exact decision-boundary extraction for neural networks with smooth activations.
-
-➡️ [voice-ai-system](https://github.com/Nikkat-Afrin/voice-ai-system) - real-time Azure voice conversational AI (speech in → LLM → speech out, streamed over WebSockets).
-
-➡️ [banking-swap-hedging-ml](https://github.com/Nikkat-Afrin/banking-swap-hedging-ml) - ML ensemble predicting swap-hedging adoption on a 2,354 bank-year panel (ROC-AUC ~0.96, SHAP interpretation).
-
-➡️ [disease-management-system-db](https://github.com/Nikkat-Afrin/disease-management-system-db) - one healthcare domain modeled three ways: PostgreSQL OLTP, an SCD-2 warehouse, and a Neo4j graph.
-
-➡️ [customer-churn-segmentation-ecommerce](https://github.com/Nikkat-Afrin/customer-churn-segmentation-ecommerce) - K-Means segments + purchase-intent model (AUC ~0.93) on 12k+ shopping sessions.
-
-➡️ [healthcare-provider-network-tableau](https://github.com/Nikkat-Afrin/healthcare-provider-network-tableau) - interactive Tableau dashboards for provider-network adequacy decisions.
-
-🤝 Let’s connect:
-
-If you’re working in AI, data engineering, analytics, cloud, education technology, logistics, or building a startup/product idea, I’d love to connect.
-I’m always open to conversations around AI workflows, data platforms, dashboards, automation, voice AI, RAG systems, product ideas, and ways to turn messy problems into real solutions.
-
-📩 Reach me at: fnunikkatafrin@gmail.com
-🌱 Fun fact:
-Outside of AI and data, I love sand painting, cooking, and learning new skills which probably explains why I enjoy turning raw, messy pieces into something meaningful.
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
