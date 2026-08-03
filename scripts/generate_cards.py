@@ -19,6 +19,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+import re
 
 LOGIN = os.environ.get("PROFILE_LOGIN", "Nikkat-Afrin")
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -53,6 +54,82 @@ def gql(query, variables):
     sys.exit("giving up after retries")
 
 
+ACH_META = {
+    "pull-shark":          ("Pull Shark", "\u25c6"),
+    "galaxy-brain":        ("Galaxy Brain", "\u2726"),
+    "pair-extraordinaire": ("Pair Extraordinaire", "\u25c9"),
+    "yolo":                ("YOLO", "\u25b2"),
+    "quickdraw":           ("Quickdraw", "\u26a1"),
+    "starstruck":          ("Starstruck", "\u2605"),
+    "public-sponsor":      ("Public Sponsor", "\u2665"),
+    "developer-program":   ("Dev Program", "\u2b21"),
+    "security-bug-bounty-hunter": ("Bug Bounty", "\u26e8"),
+    "heart-on-your-sleeve":("Heart On Sleeve", "\u2665"),
+    "open-sourcerer":      ("Open Sourcerer", "\u2756"),
+}
+TIER_NAME = {"2": "x2", "3": "x3", "4": "x4",
+             "bronze": "BRONZE", "silver": "SILVER", "gold": "GOLD"}
+
+
+def scrape_achievements(login):
+    """Read earned achievements straight off the public profile page.
+
+    GitHub exposes no API for achievements, so we parse the profile HTML.
+    Returns [] on any failure so the caller can fall back to cache.
+    """
+    url = "https://github.com/%s?tab=achievements" % login
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (compatible; profile-card-generator)",
+        "Accept": "text/html",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            htm = r.read().decode("utf-8", "replace")
+    except Exception as e:
+        print("  achievements: fetch failed (%s)" % e)
+        return []
+
+    found, seen = [], set()
+    # each badge links to ...?achievement=<slug>&tab=achievements
+    for m in re.finditer(r"achievement=([a-z0-9\-]+)", htm):
+        slug = m.group(1)
+        if slug in seen:
+            continue
+        seen.add(slug)
+        # look just after the link for a tier marker (x2 / x3 / bronze ...)
+        window = htm[m.end():m.end() + 1200]
+        tier = ""
+        t = re.search(r">\s*x(\d+)\s*<", window)
+        if t:
+            tier = TIER_NAME.get(t.group(1), "x" + t.group(1))
+        else:
+            t = re.search(r"(bronze|silver|gold)", window, re.I)
+            if t:
+                tier = TIER_NAME.get(t.group(1).lower(), t.group(1).upper())
+        name, icon = ACH_META.get(slug, (slug.replace("-", " ").title(), "\u25c6"))
+        found.append({"slug": slug, "name": name, "icon": icon, "tier": tier})
+    return found
+
+
+def load_achievements(login):
+    cache = os.path.join(OUT, "achievements.json")
+    live = scrape_achievements(login)
+    if live:
+        try:
+            json.dump(live, open(cache, "w", encoding="utf-8"), indent=2)
+        except Exception:
+            pass
+        print("  achievements: %d found live (%s)"
+              % (len(live), ", ".join(a["slug"] for a in live)))
+        return live
+    if os.path.exists(cache):
+        data = json.load(open(cache, encoding="utf-8"))
+        print("  achievements: using cached list (%d)" % len(data))
+        return data
+    print("  achievements: none found")
+    return []
+
+
 def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -77,7 +154,7 @@ QUERY = """
 query($login:String!){
  user(login:$login){
   name
-  repositories(first:100, ownerAffiliations:OWNER, isFork:false){
+  repositories(first:100, privacy:PUBLIC, ownerAffiliations:OWNER, isFork:false){
     totalCount
     nodes{ languages(first:12, orderBy:{field:SIZE,direction:DESC}){ edges{ size node{name} } } }
   }
@@ -171,13 +248,14 @@ def main():
     open(os.path.join(OUT, "langs-card.svg"), "w", encoding="utf-8").write("\n".join(s))
 
     # ---------- 3. achievements ----------
-    ach = [("Pull Shark", "GOLD", "◆"), ("Galaxy Brain", "x3", "✦"),
-           ("Pair Extraordinaire", "", "◉"), ("YOLO", "", "▲"),
-           ("Quickdraw", "", "⚡"), ("Dev Program", "MEMBER", "⬡")]
+    ach = load_achievements(LOGIN)
+
     W, H = 940, 132
     s = card(W, H, "GitHub Achievements")
-    bw = (W - 48 - 5 * 10) / 6.0
-    for i, (nm, tier, ic) in enumerate(ach):
+    n_ach = max(1, len(ach))
+    bw = (W - 48 - (n_ach - 1) * 10) / float(n_ach)
+    for i, a in enumerate(ach):
+        nm, tier, ic = a["name"], a.get("tier", ""), a.get("icon", "\u25c6")
         bx = 24 + i * (bw + 10)
         s.append('<rect x="%.0f" y="52" width="%.0f" height="60" rx="8" fill="#0b1a2b" stroke="%s"/>'
                  % (bx, bw, BR))
