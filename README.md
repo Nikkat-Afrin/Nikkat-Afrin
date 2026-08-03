@@ -122,19 +122,20 @@ An extended, more general formulation of exact smooth-boundary extraction — sc
 
 ### 📊 GitHub Analytics
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nikkat-Afrin&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0a1222&title_color=22d3ee&text_color=c9d1d9&icon_color=38bdf8" height="170" alt="stats"/>
-<img src="https://streak-stats.demolab.com?user=Nikkat-Afrin&hide_border=true&background=0a1222&stroke=123047&ring=22d3ee&fire=38bdf8&currStreakLabel=22d3ee&sideLabels=c9d1d9&dates=5f8497&sideNums=c9d1d9&currStreakNum=e6f6ff&dayLabels=8fb6c9" height="170" alt="streak"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikkat-Afrin&layout=compact&hide_border=true&langs_count=10&bg_color=0a1222&title_color=22d3ee&text_color=c9d1d9" height="160" alt="top languages"/>
+<img src="./stats-card.svg" height="200" alt="GitHub stats"/>
+<img src="./langs-card.svg" height="200" alt="Most used languages"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Nikkat-Afrin&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies" width="98%"/>
+<img src="https://streak-stats.demolab.com?user=Nikkat-Afrin&hide_border=true&background=0a1222&stroke=123047&ring=22d3ee&fire=38bdf8&currStreakLabel=22d3ee&sideLabels=c9d1d9&dates=5f8497&sideNums=c9d1d9&currStreakNum=e6f6ff&dayLabels=8fb6c9" height="180" alt="streak"/>
 
 <br/><br/>
 
-<!-- Contribution activity graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikkat-Afrin&bg_color=0a1222&color=22d3ee&line=38bdf8&point=a5f3fc&area=true&area_color=0e7490&hide_border=true&custom_title=Contribution%20Graph" width="98%" alt="activity graph"/>
+<img src="./achievements-card.svg" width="98%" alt="GitHub achievements"/>
+
+<br/><br/>
+
+<img src="./activity-card.svg" width="98%" alt="Contribution activity"/>
 
 <br/><br/>
 
