@@ -1,18 +1,163 @@
-# 💫 About Me:
-🔭 I’m currently working on cloud-native AI and data platforms at Peblink / World Literacy Research Center, turning student audio and reading data into structured literacy insights using speech AI, Python, FastAPI, and AWS.<br><br>👯 I’m looking to collaborate on open-source projects involving AI agents, RAG systems, voice AI, data engineering, applied machine learning, and intelligent workflow automation.<br><br>🤝 I’m looking for help with scaling production AI agents, improving LLM evaluation and observability, and contributing to impactful open-source AI research.<br><br>🌱 I’m currently learning advanced GCP data engineering, distributed systems, production-grade agentic AI, and scalable MLOps practices.<br><br>💬 Ask me about Python, FastAPI, AWS, Azure, data pipelines, RAG, LangChain, Whisper, voice AI, dashboards, AI automation, and machine learning research.<br><br>⚡ Fun fact: I enjoy sand painting and cooking—probably because I love turning raw, messy pieces into something meaningful.
+<!-- ============ HERO ============ -->
+<div align="center">
 
+<a href="https://www.linkedin.com/in/nikkat-afrin/">
+  <img src="./nikkat-hero-scan.svg" alt="Nikkat Afrin — AI & Data Platform Engineer" width="100%"/>
+</a>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/nikkat-afrin/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:fnunikkatafrin@gmail.com) 
+<br/>
 
-# 💻 Tech Stack:
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Snowflake](https://img.shields.io/badge/snowflake-%2329B5E8.svg?style=for-the-badge&logo=snowflake&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Neo4J](https://img.shields.io/badge/Neo4j-008CC1?style=for-the-badge&logo=neo4j&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe InDesign](https://img.shields.io/badge/Adobe%20InDesign-49021F?style=for-the-badge&logo=adobeindesign&logoColor=FF3366) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![GitLab CI](https://img.shields.io/badge/gitlab%20CI-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Nikkat-Afrin&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=Nikkat-Afrin&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Nikkat-Afrin&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<!-- Animated typing tagline -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=22D3EE&center=true&vCenter=true&width=820&height=40&lines=AI+%26+Data+Platform+Engineer+%40+Peblink;Speech+AI+%C2%B7+RAG+%C2%B7+Voice+AI+%C2%B7+Data+Pipelines;First-author+%E2%80%94+IEEE+IJCNN+2025;Turning+raw%2C+messy+data+into+meaningful+insight" alt="typing tagline"/>
 
----
-[![](https://komarev.com/ghpvc/?username=Nikkat-Afrin&icon=0&color=0)](https://visitcount.itsvg.in)
+<br/>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<a href="https://www.linkedin.com/in/nikkat-afrin/"><img src="https://img.shields.io/badge/LinkedIn-0a1222?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/></a>
+<a href="mailto:fnunikkatafrin@gmail.com"><img src="https://img.shields.io/badge/Email-0a1222?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/></a>
+<a href="https://ieeexplore.ieee.org/abstract/document/11227622"><img src="https://img.shields.io/badge/IEEE_Xplore-0a1222?style=for-the-badge&logo=ieee&logoColor=22d3ee" alt="IEEE"/></a>
+<img src="https://komarev.com/ghpvc/?username=Nikkat-Afrin&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS" alt="Profile views"/>
+
+</div>
+
+<br/>
+
+<!-- ============ ID CARD + ABOUT ============ -->
+<table border="0" align="center">
+<tr>
+<td width="36%" align="center" valign="middle">
+
+<img src="./nikkat-lanyard.svg" alt="Nikkat Afrin ID badge" width="300"/>
+
+</td>
+<td width="64%" valign="top">
+
+### `> whoami`
+
+I build **cloud-native AI & data platforms** at **Peblink / World Literacy Research Center**, turning student audio and reading data into structured literacy insights with **speech AI, Python, FastAPI, and AWS**.
+
+- 🔬 **Research:** First-author of **SigmaCam** — *Exact Decision Boundary Extraction for DNNs with Smooth Nonlinearities* (**IEEE IJCNN 2025**). Follow-up **SigmaCam++** under review at **IEEE TNNLS**.
+- 🤖 **I work across:** AI agents, RAG systems, voice AI, data engineering, applied ML, and intelligent workflow automation.
+- 🌱 **Currently leveling up:** advanced GCP data engineering, production-grade agentic AI, and scalable MLOps.
+- 💬 **Ask me about:** Python, FastAPI, AWS/Azure, RAG, LangChain, Whisper, voice AI, dashboards, and ML research.
+- ⚡ **Fun fact:** I love sand painting and cooking — probably because I enjoy turning raw, messy pieces into something meaningful.
+
+📍 New York · 🎓 Yeshiva University · she/her
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============ FEATURED RESEARCH ============ -->
+<div align="center">
+
+### 🧠 Featured Research
+
+</div>
+
+<table align="center">
+<tr>
+<td valign="top" width="50%">
+
+**[SigmaCam — Exact Decision Boundaries for Smooth DNNs](https://github.com/Nikkat-Afrin/SigmaCam)**
+`PyTorch` · `Interpretability` · `IEEE IJCNN 2025`
+
+A theoretically exact, recursive algorithm that extracts decision boundaries for MLPs with **smooth activations** (Sigmoid, SiLU) — where prior exact methods (SplineCam) can't go. Ships with a pip-installable package, 8 Colab demos, and training-time boundary animations.
+
+[![Paper](https://img.shields.io/badge/Read_on-IEEE_Xplore-0a1222?style=flat-square&logo=ieee&logoColor=22d3ee)](https://ieeexplore.ieee.org/abstract/document/11227622)
+
+</td>
+<td valign="top" width="50%">
+
+**SigmaCam++ *(under review — IEEE TNNLS)***
+`Research` · `Extended Method`
+
+An extended, more general formulation of exact smooth-boundary extraction — scaling the method to broader architectures and real-world validation. Journal submission in progress.
+
+![Status](https://img.shields.io/badge/Status-Under_Review-0a1222?style=flat-square&logo=bookstack&logoColor=38bdf8)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ============ TECH STACK ============ -->
+<div align="center">
+
+### 🛠️ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-0a1222?style=for-the-badge&logo=python&logoColor=22d3ee)
+![SQL](https://img.shields.io/badge/SQL-0a1222?style=for-the-badge&logo=postgresql&logoColor=22d3ee)
+![FastAPI](https://img.shields.io/badge/FastAPI-0a1222?style=for-the-badge&logo=fastapi&logoColor=22d3ee)
+![PyTorch](https://img.shields.io/badge/PyTorch-0a1222?style=for-the-badge&logo=pytorch&logoColor=22d3ee)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0a1222?style=for-the-badge&logo=tensorflow&logoColor=22d3ee)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0a1222?style=for-the-badge&logo=scikit-learn&logoColor=22d3ee)
+
+![LangChain](https://img.shields.io/badge/LangChain-0a1222?style=for-the-badge&logo=langchain&logoColor=22d3ee)
+![Pandas](https://img.shields.io/badge/Pandas-0a1222?style=for-the-badge&logo=pandas&logoColor=22d3ee)
+![NumPy](https://img.shields.io/badge/NumPy-0a1222?style=for-the-badge&logo=numpy&logoColor=22d3ee)
+![Whisper](https://img.shields.io/badge/Whisper-0a1222?style=for-the-badge&logo=openai&logoColor=22d3ee)
+![Power BI](https://img.shields.io/badge/Power_BI-0a1222?style=for-the-badge&logo=powerbi&logoColor=22d3ee)
+
+![AWS](https://img.shields.io/badge/AWS-0a1222?style=for-the-badge&logo=amazon-aws&logoColor=22d3ee)
+![Azure](https://img.shields.io/badge/Azure-0a1222?style=for-the-badge&logo=microsoftazure&logoColor=22d3ee)
+![GCP](https://img.shields.io/badge/GCP-0a1222?style=for-the-badge&logo=googlecloud&logoColor=22d3ee)
+![Snowflake](https://img.shields.io/badge/Snowflake-0a1222?style=for-the-badge&logo=snowflake&logoColor=22d3ee)
+![Docker](https://img.shields.io/badge/Docker-0a1222?style=for-the-badge&logo=docker&logoColor=22d3ee)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0a1222?style=for-the-badge&logo=kubernetes&logoColor=22d3ee)
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a1222?style=for-the-badge&logo=postgresql&logoColor=22d3ee)
+![MongoDB](https://img.shields.io/badge/MongoDB-0a1222?style=for-the-badge&logo=mongodb&logoColor=22d3ee)
+![Neo4j](https://img.shields.io/badge/Neo4j-0a1222?style=for-the-badge&logo=neo4j&logoColor=22d3ee)
+![Git](https://img.shields.io/badge/Git-0a1222?style=for-the-badge&logo=git&logoColor=22d3ee)
+
+</div>
+
+<br/>
+
+<!-- ============ STATS ============ -->
+<div align="center">
+
+### 📊 GitHub Analytics
+
+<img src="https://github-readme-stats.vercel.app/api?username=Nikkat-Afrin&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0a1222&title_color=22d3ee&text_color=c9d1d9&icon_color=38bdf8" height="170" alt="stats"/>
+<img src="https://streak-stats.demolab.com?user=Nikkat-Afrin&hide_border=true&background=0a1222&stroke=123047&ring=22d3ee&fire=38bdf8&currStreakLabel=22d3ee&sideLabels=c9d1d9&dates=5f8497&sideNums=c9d1d9&currStreakNum=e6f6ff&dayLabels=8fb6c9" height="170" alt="streak"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nikkat-Afrin&layout=compact&hide_border=true&langs_count=10&bg_color=0a1222&title_color=22d3ee&text_color=c9d1d9" height="160" alt="top languages"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Nikkat-Afrin&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="trophies" width="98%"/>
+
+<br/><br/>
+
+<!-- Contribution activity graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikkat-Afrin&bg_color=0a1222&color=22d3ee&line=38bdf8&point=a5f3fc&area=true&area_color=0e7490&hide_border=true&custom_title=Contribution%20Graph" width="98%" alt="activity graph"/>
+
+<br/><br/>
+
+### 🐍 Watch the snake eat my contributions
+
+<img src="https://raw.githubusercontent.com/Nikkat-Afrin/Nikkat-Afrin/output/snake.svg" alt="contribution snake" width="98%"/>
+
+</div>
+
+<br/>
+
+<!-- ============ CONNECT ============ -->
+<div align="center">
+
+### 🤝 Let's build something meaningful
+
+I'm open to roles and collaboration in **AI/ML engineering, data platforms, and applied AI research.**
+
+<a href="https://www.linkedin.com/in/nikkat-afrin/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-22d3ee?style=for-the-badge&logo=linkedin&logoColor=0a1222" alt="LinkedIn"/></a>
+<a href="mailto:fnunikkatafrin@gmail.com"><img src="https://img.shields.io/badge/Email_me-38bdf8?style=for-the-badge&logo=gmail&logoColor=0a1222" alt="Email"/></a>
+
+<br/><br/>
+
+<sub>✨ <i>"Turning raw, messy pieces into something meaningful."</i> ✨</sub>
+
+</div>
