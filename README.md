@@ -137,12 +137,6 @@ An extended, more general formulation of exact smooth-boundary extraction — sc
 
 <img src="./activity-card.svg" width="98%" alt="Contribution activity"/>
 
-<br/><br/>
-
-### 🐍 Watch the snake eat my contributions
-
-<img src="https://raw.githubusercontent.com/Nikkat-Afrin/Nikkat-Afrin/output/snake.svg" alt="contribution snake" width="98%"/>
-
 </div>
 
 <br/>

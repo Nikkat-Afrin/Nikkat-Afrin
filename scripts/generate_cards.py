@@ -7,7 +7,7 @@ Produces (in repo root):
   stats-card.svg         real commits / PRs / contributions / repos
   langs-card.svg         language share averaged per repo
   achievements-card.svg  earned GitHub achievement badges
-  activity-card.svg      6-month contribution activity (sqrt scale)
+  activity-card.svg      last-7-days contribution bar chart
 
 Usage:  GH_TOKEN=<token> python scripts/generate_cards.py
 """
@@ -277,44 +277,54 @@ def main():
     s.append("</svg>")
     open(os.path.join(OUT, "achievements-card.svg"), "w", encoding="utf-8").write("\n".join(s))
 
-    # ---------- 4. activity ----------
-    recent = cal[-182:]
+    # ---------- 4. activity (last 7 days) ----------
+    recent = cal[-7:]
     W, H = 940, 240
-    s = card(W, H, "Contribution Activity  ·  last 6 months",
-             extra='<defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1">'
-                   '<stop offset="0" stop-color="%s" stop-opacity="0.45"/>'
-                   '<stop offset="1" stop-color="%s" stop-opacity="0.02"/></linearGradient></defs>'
-                   % (CY, CY))
+    s = card(W, H, "Contribution Activity  \u00b7  last 7 days")
     maxv = max(1, max(c["contributionCount"] for c in recent))
-    x0, y0, x1, y1 = 40, 60, W - 30, H - 40
+    x0, y0, x1, y1 = 60, 62, W - 40, H - 52
     n = len(recent)
-    pts = []
-    for i, c in enumerate(recent):
-        px = x0 + (x1 - x0) * i / float(n - 1)
-        py = y1 - (y1 - y0) * ((c["contributionCount"] / float(maxv)) ** 0.5)
-        pts.append((px, py))
+    slot = (x1 - x0) / float(n)
+    barw = min(70.0, slot * 0.52)
+    # gridlines
     for g in range(4):
         gy = y0 + (y1 - y0) * g / 3.0
         s.append('<line x1="%d" y1="%.0f" x2="%d" y2="%.0f" stroke="#122b3d" stroke-width="1"/>'
-                 % (x0, gy, x1, gy))
+                 % (x0 - 12, gy, x1, gy))
         s.append('<text x="%d" y="%.0f" text-anchor="end" class="sm">%d</text>'
-                 % (x0 - 8, gy + 4, int(maxv * (((3 - g) / 3.0) ** 2))))
-    dpath = "M " + " L ".join("%.1f %.1f" % (px, py) for px, py in pts)
-    s.append('<path d="%s L %.1f %d L %.1f %d Z" fill="url(#ag)"/>'
-             % (dpath, pts[-1][0], y1, pts[0][0], y1))
-    s.append('<path d="%s" fill="none" stroke="%s" stroke-width="2" stroke-linejoin="round"/>'
-             % (dpath, CY))
-    peak = max(range(n), key=lambda i: recent[i]["contributionCount"])
-    s.append('<circle cx="%.1f" cy="%.1f" r="4" fill="#a5f3fc"/>' % pts[peak])
-    s.append('<text x="%.1f" y="%.1f" text-anchor="middle" class="sm" fill="%s">%d on %s</text>'
-             % (pts[peak][0], pts[peak][1] - 10, CY,
-                recent[peak]["contributionCount"], recent[peak]["date"][5:]))
-    s.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s"/>' % (x0, y1, x1, y1, BR))
-    s.append('<text x="%d" y="%d" class="sm">%s</text>' % (x0, y1 + 22, recent[0]["date"]))
-    s.append('<text x="%.0f" y="%d" text-anchor="middle" class="sm">sqrt scale</text>'
-             % ((x0 + x1) / 2.0, y1 + 22))
-    s.append('<text x="%d" y="%d" text-anchor="end" class="sm">%s</text>'
-             % (x1, y1 + 22, recent[-1]["date"]))
+                 % (x0 - 20, gy + 4, int(round(maxv * (3 - g) / 3.0))))
+    DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+    import datetime
+    week_total = sum(c["contributionCount"] for c in recent)
+    for i, c in enumerate(recent):
+        v = c["contributionCount"]
+        cxb = x0 + slot * i + slot / 2.0
+        bh = (y1 - y0) * (v / float(maxv))
+        by = y1 - bh
+        col = CY if v else "#16324a"
+        if bh < 2:
+            bh, by = 2.0, y1 - 2
+        s.append('<rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" rx="4" fill="%s" opacity="0.9">'
+                 '<animate attributeName="height" from="0" to="%.1f" dur="0.8s" begin="%.2fs" '
+                 'fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1" keyTimes="0;1"/>'
+                 '<animate attributeName="y" from="%.1f" to="%.1f" dur="0.8s" begin="%.2fs" '
+                 'fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1" keyTimes="0;1"/></rect>'
+                 % (cxb - barw / 2, by, barw, bh, col, bh, i * 0.08, y1, by, i * 0.08))
+        s.append('<text x="%.1f" y="%.1f" text-anchor="middle" class="vl">%d</text>'
+                 % (cxb, by - 9, v))
+        try:
+            d = datetime.date(*[int(x) for x in c["date"].split("-")])
+            lab = DAYS[d.weekday()]
+            sub = c["date"][5:]
+        except Exception:
+            lab, sub = "", c["date"][5:]
+        s.append('<text x="%.1f" y="%.1f" text-anchor="middle" class="lb">%s</text>'
+                 % (cxb, y1 + 22, lab))
+        s.append('<text x="%.1f" y="%.1f" text-anchor="middle" class="sm">%s</text>'
+                 % (cxb, y1 + 38, sub))
+    s.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s"/>' % (x0 - 12, y1, x1, y1, BR))
+    s.append('<text x="%d" y="32" text-anchor="end" class="sm">%d contributions this week</text>'
+             % (W - 24, week_total))
     s.append("</svg>")
     open(os.path.join(OUT, "activity-card.svg"), "w", encoding="utf-8").write("\n".join(s))
 
