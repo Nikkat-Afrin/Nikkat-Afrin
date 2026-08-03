@@ -90,20 +90,28 @@ def scrape_achievements(login):
         return []
 
     found, seen = [], set()
-    # each badge links to ...?achievement=<slug>&tab=achievements
-    for m in re.finditer(r"achievement=([a-z0-9\-]+)", htm):
-        slug = m.group(1)
-        if slug in seen:
+    slugs = []
+    # 1) badge links:  ...?achievement=<slug>&tab=achievements
+    slugs += re.findall(r"achievement=([a-z0-9\-]+)", htm)
+    # 2) badge images: .../assets/<slug>-default-<hash>.png  (also -bronze/-silver/-gold)
+    slugs += re.findall(r"assets/([a-z0-9\-]+?)-(?:default|bronze|silver|gold)-[0-9a-f]{6,}\.png", htm)
+    # 3) alt text:     alt="Achievement: Pull Shark"
+    for alt in re.findall(r'alt="Achievement:\s*([^"]+)"', htm):
+        slugs.append(alt.strip().lower().replace(" ", "-"))
+
+    for slug in slugs:
+        slug = slug.strip().lower()
+        if not slug or slug in seen or slug in ("achievements",):
             continue
         seen.add(slug)
-        # look just after the link for a tier marker (x2 / x3 / bronze ...)
-        window = htm[m.end():m.end() + 1200]
+        idx = htm.find(slug)
+        window = htm[idx:idx + 1500] if idx >= 0 else ""
         tier = ""
         t = re.search(r">\s*x(\d+)\s*<", window)
         if t:
             tier = TIER_NAME.get(t.group(1), "x" + t.group(1))
         else:
-            t = re.search(r"(bronze|silver|gold)", window, re.I)
+            t = re.search(r"%s-(bronze|silver|gold)-" % re.escape(slug), htm, re.I)
             if t:
                 tier = TIER_NAME.get(t.group(1).lower(), t.group(1).upper())
         name, icon = ACH_META.get(slug, (slug.replace("-", " ").title(), "\u25c6"))
