@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -15,6 +18,7 @@ jobs:
     steps:
       - name: Generate snake SVG
         uses: Platane/snk@v3
+        id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
