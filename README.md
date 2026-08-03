@@ -13,7 +13,7 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/nikkat-afrin/"><img src="https://img.shields.io/badge/LinkedIn-0a1222?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/></a>
-<a href="mailto:fnunikkatafrin@gmail.com"><img src="https://img.shields.io/badge/Email-0a1222?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/></a>
+<a href="mailto:afrinnikkat2002@gmail.com"><img src="https://img.shields.io/badge/Email-0a1222?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/></a>
 <a href="https://ieeexplore.ieee.org/abstract/document/11227622"><img src="https://img.shields.io/badge/IEEE_Xplore-0a1222?style=for-the-badge&logo=ieee&logoColor=22d3ee" alt="IEEE"/></a>
 <img src="https://komarev.com/ghpvc/?username=Nikkat-Afrin&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS" alt="Profile views"/>
 
@@ -149,7 +149,7 @@ An extended, more general formulation of exact smooth-boundary extraction — sc
 I'm open to roles and collaboration in **AI/ML engineering, data platforms, and applied AI research.**
 
 <a href="https://www.linkedin.com/in/nikkat-afrin/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-22d3ee?style=for-the-badge&logo=linkedin&logoColor=0a1222" alt="LinkedIn"/></a>
-<a href="mailto:fnunikkatafrin@gmail.com"><img src="https://img.shields.io/badge/Email_me-38bdf8?style=for-the-badge&logo=gmail&logoColor=0a1222" alt="Email"/></a>
+<a href="mailto:afrinnikkat2002@gmail.com"><img src="https://img.shields.io/badge/Email_me-38bdf8?style=for-the-badge&logo=gmail&logoColor=0a1222" alt="Email"/></a>
 
 <br/><br/>
 
