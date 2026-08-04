@@ -35,7 +35,7 @@
 
 I build **cloud-native AI & data platforms** at **Peblink / World Literacy Research Center**, turning student audio and reading data into structured literacy insights with **speech AI, Python, FastAPI, and AWS**.
 
-- 🔬 **Research:** First-author of **SigmaCam** — *Exact Decision Boundary Extraction for DNNs with Smooth Nonlinearities* (**IEEE IJCNN 2025**). Follow-up **SigmaCam++** under review at **IEEE TNNLS**.
+- 🔬 **Research:** First-author of **SigmaCam** — *Exact Decision Boundary Extraction for DNNs with Smooth Nonlinearities* (**IEEE IJCNN 2025**).
 - 🤖 **I work across:** AI agents, RAG systems, voice AI, data engineering, applied ML, and intelligent workflow automation.
 - 🌱 **Currently leveling up:** advanced GCP data engineering, production-grade agentic AI, and scalable MLOps.
 - 💬 **Ask me about:** Python, FastAPI, AWS/Azure, RAG, LangChain, Whisper, voice AI, dashboards, and ML research.
@@ -58,7 +58,7 @@ I build **cloud-native AI & data platforms** at **Peblink / World Literacy Resea
 
 <table align="center">
 <tr>
-<td valign="top" width="50%">
+<td valign="top">
 
 **[SigmaCam — Exact Decision Boundaries for Smooth DNNs](https://github.com/Nikkat-Afrin/SigmaCam)**
 `PyTorch` · `Interpretability` · `IEEE IJCNN 2025`
@@ -66,16 +66,6 @@ I build **cloud-native AI & data platforms** at **Peblink / World Literacy Resea
 A theoretically exact, recursive algorithm that extracts decision boundaries for MLPs with **smooth activations** (Sigmoid, SiLU) — where prior exact methods (SplineCam) can't go. Ships with a pip-installable package, 8 Colab demos, and training-time boundary animations.
 
 [![Paper](https://img.shields.io/badge/Read_on-IEEE_Xplore-0a1222?style=flat-square&logo=ieee&logoColor=22d3ee)](https://ieeexplore.ieee.org/abstract/document/11227622)
-
-</td>
-<td valign="top" width="50%">
-
-**SigmaCam++ *(under review — IEEE TNNLS)***
-`Research` · `Extended Method`
-
-An extended, more general formulation of exact smooth-boundary extraction — scaling the method to broader architectures and real-world validation. Journal submission in progress.
-
-![Status](https://img.shields.io/badge/Status-Under_Review-0a1222?style=flat-square&logo=bookstack&logoColor=38bdf8)
 
 </td>
 </tr>
