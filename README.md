@@ -1,21 +1,28 @@
 <!-- ============ HERO ============ -->
 <div align="center">
 
-<a href="https://www.linkedin.com/in/nikkat-afrin/">
-  <img src="./nikkat-hero-scan.svg" alt="Nikkat Afrin — AI & Data Platform Engineer" width="100%"/>
+<a href="https://nikkat-afrin.github.io/">
+  <img src="./nikkat-hero-scan.svg" alt="Nikkat Afrin · AI &amp; Data Platform Engineer" width="100%"/>
 </a>
 
 <br/>
 
 <!-- Animated typing tagline -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=22D3EE&center=true&vCenter=true&width=820&height=40&lines=AI+%26+Data+Platform+Engineer+%40+Peblink;Speech+AI+%C2%B7+RAG+%C2%B7+Voice+AI+%C2%B7+Data+Pipelines;First-author+%E2%80%94+IEEE+IJCNN+2025;Turning+raw%2C+messy+data+into+meaningful+insight" alt="typing tagline"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=22D3EE&center=true&vCenter=true&width=820&height=40&lines=AI+%26+Data+Platform+Engineer+%40+Peblink;Speech+AI+%C2%B7+RAG+%C2%B7+Voice+AI+%C2%B7+Data+Pipelines;First-author+%C2%B7+IEEE+IJCNN+2025;Turning+raw%2C+messy+data+into+meaningful+insight" alt="typing tagline"/>
 
 <br/>
 
+<a href="https://nikkat-afrin.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-22d3ee?style=for-the-badge&logo=googlechrome&logoColor=0a1222&labelColor=22d3ee" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/nikkat-afrin/"><img src="https://img.shields.io/badge/LinkedIn-0a1222?style=for-the-badge&logo=linkedin&logoColor=22d3ee" alt="LinkedIn"/></a>
-<a href="mailto:afrinnikkat2002@gmail.com"><img src="https://img.shields.io/badge/Email-0a1222?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/></a>
+<a href="mailto:fnunikkatafrin@gmail.com"><img src="https://img.shields.io/badge/Email-0a1222?style=for-the-badge&logo=gmail&logoColor=22d3ee" alt="Email"/></a>
 <a href="https://ieeexplore.ieee.org/abstract/document/11227622"><img src="https://img.shields.io/badge/IEEE_Xplore-0a1222?style=for-the-badge&logo=ieee&logoColor=22d3ee" alt="IEEE"/></a>
 <img src="https://komarev.com/ghpvc/?username=Nikkat-Afrin&style=for-the-badge&color=22d3ee&label=PROFILE+VIEWS" alt="Profile views"/>
+
+<br/><br/>
+
+### 🪐 &nbsp;[**nikkat-afrin.github.io**](https://nikkat-afrin.github.io/)
+
+Live dashboards, the IEEE paper, and every project in one place.
 
 </div>
 
@@ -35,11 +42,11 @@
 
 I build **cloud-native AI & data platforms** at **Peblink / World Literacy Research Center**, turning student audio and reading data into structured literacy insights with **speech AI, Python, FastAPI, and AWS**.
 
-- 🔬 **Research:** First-author of **SigmaCam** — *Exact Decision Boundary Extraction for DNNs with Smooth Nonlinearities* (**IEEE IJCNN 2025**).
+- 🔬 **Research:** First-author of **SigmaCam**, *Exact Decision Boundary Extraction for DNNs with Smooth Nonlinearities* (**IEEE IJCNN 2025**).
 - 🤖 **I work across:** AI agents, RAG systems, voice AI, data engineering, applied ML, and intelligent workflow automation.
 - 🌱 **Currently leveling up:** advanced GCP data engineering, production-grade agentic AI, and scalable MLOps.
 - 💬 **Ask me about:** Python, FastAPI, AWS/Azure, RAG, LangChain, Whisper, voice AI, dashboards, and ML research.
-- ⚡ **Fun fact:** I love sand painting and cooking — probably because I enjoy turning raw, messy pieces into something meaningful.
+- ⚡ **Fun fact:** I love sand painting and cooking, probably because I enjoy turning raw, messy pieces into something meaningful.
 
 📍 New York · 🎓 Yeshiva University · she/her
 
@@ -60,10 +67,10 @@ I build **cloud-native AI & data platforms** at **Peblink / World Literacy Resea
 <tr>
 <td valign="top">
 
-**[SigmaCam — Exact Decision Boundaries for Smooth DNNs](https://github.com/Nikkat-Afrin/SigmaCam)**
+**[SigmaCam: Exact Decision Boundaries for Smooth DNNs](https://github.com/Nikkat-Afrin/SigmaCam)**
 `PyTorch` · `Interpretability` · `IEEE IJCNN 2025`
 
-A theoretically exact, recursive algorithm that extracts decision boundaries for MLPs with **smooth activations** (Sigmoid, SiLU) — where prior exact methods (SplineCam) can't go. Ships with a pip-installable package, 8 Colab demos, and training-time boundary animations.
+A theoretically exact, recursive algorithm that extracts decision boundaries for MLPs with **smooth activations** (Sigmoid, SiLU), where prior exact methods (SplineCam) can't go. Ships with a pip-installable package, 8 Colab demos, and training-time boundary animations.
 
 [![Paper](https://img.shields.io/badge/Read_on-IEEE_Xplore-0a1222?style=flat-square&logo=ieee&logoColor=22d3ee)](https://ieeexplore.ieee.org/abstract/document/11227622)
 
@@ -138,8 +145,9 @@ A theoretically exact, recursive algorithm that extracts decision boundaries for
 
 I'm open to roles and collaboration in **AI/ML engineering, data platforms, and applied AI research.**
 
+<a href="https://nikkat-afrin.github.io/"><img src="https://img.shields.io/badge/View_my_portfolio-a78bfa?style=for-the-badge&logo=googlechrome&logoColor=0a1222" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/nikkat-afrin/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-22d3ee?style=for-the-badge&logo=linkedin&logoColor=0a1222" alt="LinkedIn"/></a>
-<a href="mailto:afrinnikkat2002@gmail.com"><img src="https://img.shields.io/badge/Email_me-38bdf8?style=for-the-badge&logo=gmail&logoColor=0a1222" alt="Email"/></a>
+<a href="mailto:fnunikkatafrin@gmail.com"><img src="https://img.shields.io/badge/Email_me-38bdf8?style=for-the-badge&logo=gmail&logoColor=0a1222" alt="Email"/></a>
 
 <br/><br/>
 
