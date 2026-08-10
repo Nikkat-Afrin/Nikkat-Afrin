@@ -1,5 +1,11 @@
 [
   {
+    "slug": "pull-shark",
+    "name": "Pull Shark",
+    "icon": "\u25c6",
+    "tier": ""
+  },
+  {
     "slug": "galaxy-brain",
     "name": "Galaxy Brain",
     "icon": "\u2726",
