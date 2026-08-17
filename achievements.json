@@ -3,7 +3,7 @@
     "slug": "pull-shark",
     "name": "Pull Shark",
     "icon": "\u25c6",
-    "tier": ""
+    "tier": "x3"
   },
   {
     "slug": "galaxy-brain",
@@ -15,6 +15,6 @@
     "slug": "quickdraw",
     "name": "Quickdraw",
     "icon": "\u26a1",
-    "tier": ""
+    "tier": "x3"
   }
 ]
