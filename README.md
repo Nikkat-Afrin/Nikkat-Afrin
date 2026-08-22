@@ -80,6 +80,46 @@ A theoretically exact, recursive algorithm that extracts decision boundaries for
 
 <br/>
 
+<!-- ============ CERTIFICATIONS ============ -->
+<div align="center">
+
+### 📜 Certifications
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+<a href="https://www.credly.com/badges/d0c55214-bba5-4be8-843e-b3e6bb7d40fe/public_url"><img src="./certs/gcp-pde.png" height="104" alt="Google Cloud Certified Professional Data Engineer"/></a>
+
+**Professional Data Engineer**
+
+`Google Cloud` · `BigQuery` · `Dataflow` · `Pub/Sub`
+
+<sub>Issued Aug 2026 · Expires Aug 2028</sub>
+
+[![Verify](https://img.shields.io/badge/Verify_on-Credly-0a1222?style=flat-square&logo=credly&logoColor=22d3ee)](https://www.credly.com/badges/d0c55214-bba5-4be8-843e-b3e6bb7d40fe/public_url)
+
+</td>
+<td align="center" width="50%">
+
+<a href="https://learn.microsoft.com/api/credentials/share/en-us/FNUNikkatAfrin-2201/234D2F8AA34E9757?sharingId=78C31178E05A23D8"><img src="./certs/ms-certified-associate.svg" height="104" alt="Microsoft Certified Associate"/></a>
+
+**Fabric Data Engineer Associate**
+
+`Microsoft Fabric` · `Spark` · `Lakehouse` · `Dataflows Gen2`
+
+<sub>Issued Aug 2026</sub>
+
+[![Verify](https://img.shields.io/badge/Verify_on-Microsoft_Learn-0a1222?style=flat-square&logo=microsoft&logoColor=22d3ee)](https://learn.microsoft.com/api/credentials/share/en-us/FNUNikkatAfrin-2201/234D2F8AA34E9757?sharingId=78C31178E05A23D8)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
 <!-- ============ TECH STACK ============ -->
 <div align="center">
 
