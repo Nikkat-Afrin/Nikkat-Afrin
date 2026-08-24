@@ -10,8 +10,8 @@
 <clipPath id="bc"><rect x="24" y="56" width="412" height="11" rx="5.5"/></clipPath><g clip-path="url(#bc)">
 <rect x="24.0" y="56" width="248.4" height="11" fill="#22d3ee"/>
 <rect x="272.4" y="56" width="73.3" height="11" fill="#38bdf8"/>
-<rect x="345.6" y="56" width="62.8" height="11" fill="#67e8f9"/>
-<rect x="408.4" y="56" width="21.8" height="11" fill="#0ea5e9"/>
+<rect x="345.6" y="56" width="62.9" height="11" fill="#67e8f9"/>
+<rect x="408.5" y="56" width="21.7" height="11" fill="#0ea5e9"/>
 <rect x="430.3" y="56" width="3.3" height="11" fill="#7dd3fc"/>
 <rect x="433.5" y="56" width="2.5" height="11" fill="#164e63"/>
 </g>
@@ -23,7 +23,7 @@
 <text x="429" y="94" text-anchor="end" class="vl">17.8%</text>
 <circle cx="29" cy="116" r="5" fill="#67e8f9"/>
 <text x="42" y="120" class="lb">HTML</text>
-<text x="214" y="120" text-anchor="end" class="vl">15.2%</text>
+<text x="214" y="120" text-anchor="end" class="vl">15.3%</text>
 <circle cx="244" cy="116" r="5" fill="#0ea5e9"/>
 <text x="257" y="120" class="lb">JavaScript</text>
 <text x="429" y="120" text-anchor="end" class="vl">5.3%</text>
